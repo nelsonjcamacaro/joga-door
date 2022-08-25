@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logInFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LogInFragment"
+    android:background="@mipmap/background_futbol">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="206dp"
+        android:layout_height="216dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="63dp"
+        android:src="@mipmap/jogadoorlogo"/>
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="258dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400dp"
+        android:hint=" Usuario"
+        android:inputType="text"
+        android:background="@color/grisClaro"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="258dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="466dp"
+        android:hint=" Contraseña"
+        android:inputType="textPassword"
+        android:background="@color/grisClaro"/>
+
+    <Button
+        android:id="@+id/btnLogIn"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="551dp"
+        android:text="iniciar sesion"
+        app:cornerRadius="50dp"
+        android:backgroundTint="@color/bordo"/>
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="625dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Registrarse"
+        android:textColor="@color/azulito"
+        android:textSize="20sp" />
+
+</FrameLayout>

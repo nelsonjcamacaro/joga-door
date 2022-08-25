@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="16dp"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/ivOfList"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"/>
+    <TextView
+        android:id="@+id/tvNameOfList"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="10dp"
+        android:text="Nombre:"
+        android:fontFamily="@font/aclonica"/>
+    <TextView
+        android:id="@+id/tvClubOfList"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="70dp"
+        android:text="Club:"
+        android:fontFamily="@font/aclonica"/>
+    <TextView
+        android:id="@+id/tvAgeOfList"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="130dp"
+        android:text="Edad:"
+        android:fontFamily="@font/aclonica"/>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,500 @@
+package com.example.joga_door.datas
+
+class PlayersProvider(){
+    companion object{
+        val playersList = mutableListOf<Players>(
+            Players(
+                "Kylian Mbappé",
+                "https://s.hs-data.com/bilder/spieler/gross/284095.jpg?fallback=png",
+                "20.12.1998",
+                "PSG",
+                "Francia",
+                "178 cm",
+                "73 kg",
+                "Delantero centro",
+                "diestro"
+            ),
+            Players(
+                "Zlatan Ibrahimović",
+                "https://s.hs-data.com/bilder/spieler/gross/1274.jpg?fallback=png",
+                "03.10.1981",
+                "AC Milan",
+                "Suecia Bosnia y Herzegovina",
+                "195 cm",
+                "95 kg",
+                "Delantero centro",
+                "ambidiestro"
+            ),
+            Players(
+                "Luka Modric",
+                "https://s.hs-data.com/bilder/spieler/gross/38680.jpg?fallback=png",
+                "09.09.1985",
+                "Real Madrid",
+                "Croacia",
+                "172 cm",
+                "66 kg",
+                "Mediocentro Mediocentro ofensivo",
+                "ambidiestro"
+            ),
+            Players(
+                "Thibaut Courtois",
+                "https://s.hs-data.com/bilder/spieler/gross/140652.jpg?fallback=png",
+                "11.05.1992",
+                "Real Madrid",
+                "Bélgica",
+                "200 cm",
+                "96 kg",
+                "Portero",
+                "zurdo"
+            ),
+            Players(
+                "Toni Kroos",
+                "https://s.hs-data.com/bilder/spieler/gross/84724.jpg?fallback=png",
+                "04.01.1990",
+                "Real Madrid",
+                "Alemania", "183 cm", "76 kg",
+                "Mediocentro Mediocentro defensivo",
+                "diestro"
+            ),
+            Players(
+                "Adama Traoré Diarra",
+                "https://s.hs-data.com/bilder/spieler/gross/227381.jpg?fallback=png",
+                "25.01.1996", "Fc Barcelona",
+                "España Malí",
+                "178 cm",
+                "86 kg",
+                "Extremo derecho Interior derecho",
+                "diestro"
+            ),
+            Players(
+                "Alejandro Darío Gómez",
+                "https://s.hs-data.com/bilder/spieler/gross/68361.jpg?fallback=png",
+                "15.02.1988",
+                "Sevilla Fc",
+                "Argentina Italia",
+                "167 cm",
+                "68 kg",
+                "Mediocentro ofensivo Extremo izquierdo",
+                "diestro"
+            ),
+            Players(
+                "Alisson Ramses Becker",
+                "https://s.hs-data.com/bilder/spieler/gross/248681.jpg?fallback=png",
+                "02.10.1992",
+                "Liverpool",
+                "Brasil",
+                "191 cm",
+                "88 kg",
+                "Portero",
+                "diestro"
+            ),
+            Players(
+                "Ángel Fabián Di María",
+                "https://s.hs-data.com/bilder/spieler/gross/43864.jpg?fallback=png",
+                "14.02.1988",
+                "PSG",
+                "Argentina Italia",
+                "180 cm",
+                "75 kg",
+                "Extremo derecho Mediocentro ofensivo",
+                "zurdo"
+            ),
+            Players(
+                "Anssumane Fati",
+                "https://s.hs-data.com/bilder/spieler/gross/438534.jpg?fallback=png",
+                "31.10.2002",
+                "Fc Barcelona",
+                "España Guinea-Bissau",
+                "178 cm",
+                "66 kg",
+                "Extremo izquierdo Extremo derecho",
+                "diestro"
+            ),
+            Players(
+                "Antonio Rüdiger",
+                "https://s.hs-data.com/bilder/spieler/gross/174182.jpg?fallback=png",
+                "03.03.1993",
+                "Chelsea FC",
+                "Alemania Sierra Leona",
+                "190 cm",
+                "85 kg",
+                "Defensa central Lateral derecho",
+                "diestro"
+            ),
+            Players(
+                "Bruno Fernandes",
+                "https://s.hs-data.com/bilder/spieler/gross/226450.jpg?fallback=png",
+                "08.09.1994",
+                "Manchester United",
+                "Portugal",
+                "179 cm",
+                "69 kg",
+                "Mediocentro ofensivo Mediocentro",
+                "diestro"
+            ),
+            Players(
+                "Cristiano Ronaldo",
+                "https://s.hs-data.com/bilder/spieler/gross/13029.jpg?fallback=png",
+                "05.02.1985",
+                "Manchester United",
+                "Portugal",
+                "187 cm",
+                "83 kg",
+                "Extremo izquierdo Delantero centro",
+                "ambidiestro"
+            ),
+            Players(
+                "Darwin Gabriel Núñez Ribeiro",
+                "https://s.hs-data.com/bilder/spieler/gross/405929.jpg?fallback=png",
+                "24.06.1999",
+                "Benfica",
+                "Uruguay",
+                "187 cm",
+                "80 kg",
+                "Delantero centro Extremo izquierdo",
+                "diestro"
+            ),
+            Players(
+                "David de Gea Quintana",
+                "https://s.hs-data.com/bilder/spieler/gross/148647.jpg?fallback=png",
+                "07.11.1990",
+                "Manchester United",
+                "España",
+                "192 cm",
+                "82 kg",
+                "Portero",
+                "diestro"
+            ),
+            Players(
+                "Diogo José Teixeira da Silva",
+                "https://s.hs-data.com/bilder/spieler/gross/280709.jpg?fallback=png",
+                "04.12.1996",
+                "Liverpool",
+                "Portugal",
+                "178 cm",
+                "70 kg",
+                "Extremo izquierdo Delantero centro",
+                "diestro"
+            ),
+            Players(
+                "Edinson Roberto Gómez Cavani",
+                "https://s.hs-data.com/bilder/spieler/gross/73627.jpg?fallback=png",
+                "14.02.1987",
+                "Manchester United",
+                "Uruguay Italia",
+                "184 cm",
+                "77 kg",
+                "Delantero centro Extremo izquierdo",
+                "diestro"
+            ),
+            Players(
+                "Eduardo Celmi Camavinga",
+                "https://s.hs-data.com/bilder/spieler/gross/453471.jpg?fallback=png",
+                "10.11.2002",
+                "Real Madrid",
+                "Francia R.D. Congo",
+                "182 cm",
+                "68 kg",
+                "Mediocentro Mediocentro defensivo",
+                "zurdo"
+            ),
+            Players(
+                "Erling Haaland",
+                "https://s.hs-data.com/bilder/spieler/gross/354576.jpg?fallback=png",
+                "21.07.2000",
+                "Borussia Dortmund",
+                "Noruega",
+                "194 cm",
+                "88 kg",
+                "Delantero centro Mediocentro ofensivo",
+                "zurdo"
+            ),
+            Players(
+                "Frenkie de Jong",
+                "https://s.hs-data.com/bilder/spieler/gross/290241.jpg?fallback=png",
+                "12.05.1997",
+                "Fc Barcelona",
+                "Países Bajos",
+                "180 cm",
+                "74 kg",
+                "MediocentroMediocentro defensivo",
+                "diestro"
+            ),
+            Players(
+                "Gerard Piqué i Bernabéu",
+                "https://s.hs-data.com/bilder/spieler/gross/27798.jpg?fallback=png",
+                "02.02.1987",
+                "Fc Barcelona",
+                "España",
+                "194 cm",
+                "85 kg",
+                "Defensa central",
+                "diestro"
+            ),
+            Players(
+                "João Félix Sequeira",
+                "https://s.hs-data.com/bilder/spieler/gross/368479.jpg?fallback=png",
+                "10.11.1999",
+                "Atletico de Madrid",
+                "Portugal",
+                "181 cm",
+                "72 kg",
+                "Mediocentro ofensivoInterior izquierdo",
+                "ambidiestro"
+            ),
+            Players(
+                "Jordi Alba Ramos",
+                "https://s.hs-data.com/bilder/spieler/gross/125417.jpg?fallback=png",
+                "21.03.1989",
+                "Fc Barcelona",
+                "España",
+                "170 cm",
+                "68 kg",
+                "Lateral izquierdoExtremo izquierdo",
+                "zurdo"
+            ),
+            Players(
+                "Jorginho",
+                "https://s.hs-data.com/bilder/spieler/gross/196268.jpg?fallback=png",
+                "20.12.1991",
+                "Chelsea FC",
+                "ItaliaBrasil",
+                "180 cm",
+                "68 kg",
+                "Mediocentro defensivoMediocentro",
+                "diestro"
+            ),
+            Players(
+                "Karin Benzema",
+                "https://s.hs-data.com/bilder/spieler/gross/29566.jpg?fallback=png",
+                "19.12.1987",
+                "Real Madrid",
+                "FranciaArgelia",
+                "185 cm",
+                "81 kg",
+                "Delantero centro Interior izquierdo",
+                "diestro"
+            ),
+            Players(
+                "Kevin De Bryune",
+                "https://s.hs-data.com/bilder/spieler/gross/142263.jpg?fallback=png",
+                "28.06.1991",
+                "Manchester City",
+                "Bélgica",
+                "181 cm",
+                "70 kg",
+                "Mediocentro ofensivoMediocentro",
+                "diestro"
+            ),
+            Players(
+                "Leonardo Bonucci",
+                "https://s.hs-data.com/bilder/spieler/gross/49399.jpg?fallback=png",
+                "01.05.1987",
+                "Juventus",
+                "Italia",
+                "190 cm",
+                "85 kg",
+                "Defensa central",
+                "diestro"
+            ),
+            Players(
+                "Lionel Messi",
+                "https://s.hs-data.com/bilder/spieler/gross/26622.jpg?fallback=png",
+                "PSG",
+                "Rosario,  Argentina",
+                "ArgentinaEspaña",
+                "170 cm",
+                "72 kg",
+                "Extremo derechoDelantero centro",
+                "zurdo"
+            ),
+            Players(
+                "Luis Alberto Suárez Díaz",
+                "https://s.hs-data.com/bilder/spieler/gross/43635.jpg?fallback=png",
+                "24.01.1987",
+                "Atletico de Madrid",
+                "Uruguay",
+                "182 cm",
+                "83 kg",
+                "Delantero centroInterior derecho",
+                "diestro"
+            ),
+            Players(
+                "Luis Fernando Díaz Marulanda",
+                "https://s.hs-data.com/bilder/spieler/gross/377146.jpg?fallback=png",
+                "13.01.1997",
+                "Liverpool",
+                "Colombia",
+                "180 cm",
+                "73 kg",
+                "Extremo izquierdoInterior izquierdo",
+                "diestro"
+            ),
+            Players(
+                "Mohamed Salah Hamed Mahrous Ghaly",
+                "https://s.hs-data.com/bilder/spieler/gross/173692.jpg?fallback=png",
+                "15.06.1992",
+                "Liverpool",
+                "Egipto",
+                "175 cm",
+                "73 kg",
+                "Extremo derechoExtremo izquierdo",
+                "zurdo"
+            ),
+            Players(
+                "N'Golo Kanté",
+                "https://s.hs-data.com/bilder/spieler/gross/211506.jpg?fallback=png",
+                "29.03.1991",
+                "Chelsea FC",
+                "FranciaMalí",
+                "168 cm",
+                "68 kg",
+                "Mediocentro Mediocentro defensivo",
+                "diestro"
+            ),
+            Players(
+                "Neymar da Silva Santos Júnior",
+                "https://s.hs-data.com/bilder/spieler/gross/142105.jpg?fallback=png",
+                "05.02.1992",
+                "PSG",
+                "Brasil",
+                "175 cm",
+                "68 kg",
+                "Extremo izquierdoMediocentro ofensivo",
+                "diestro"
+            ),
+            Players(
+                "Ousmane Dembélé",
+                "https://s.hs-data.com/bilder/spieler/gross/306752.jpg?fallback=png",
+                "15.05.1997",
+                "Fc Barcelona",
+                "FranciaMalí",
+                "178 cm",
+                "67 kg",
+                "Extremo derechoExtremo izquierdo",
+                "ambidiestro"
+            ),
+            Players(
+                "Paul Labile Pogba",
+                "https://s.hs-data.com/bilder/spieler/gross/180976.jpg?fallback=png",
+                "15.03.1993",
+                "Manchester United",
+                "FranciaGuinea",
+                "191 cm",
+                "84 kg",
+                "Mediocentro Mediocentro defensivo",
+                "ambidiestro"
+            ),
+            Players(
+                "Paulo Bruno Exequiel Dybala",
+                "https://s.hs-data.com/bilder/spieler/gross/205118.jpg?fallback=png",
+                "15.11.1993",
+                "Juventus",
+                "ArgentinaItalia",
+                "177 cm",
+                "75 kg",
+                "Delantero centroExtremo derecho",
+                "zurdo"
+            ),
+            Players(
+                "Pedri",
+                "https://s.hs-data.com/bilder/spieler/gross/488060.jpg?fallback=png",
+                "25.11.2002",
+                "Fc Barcelona",
+                "España",
+                "174 cm",
+                "60 kg",
+                "MediocentroMediocentro ofensivo",
+                "diestro"
+            ),
+            Players(
+                "Philip Walter Foden",
+                "https://s.hs-data.com/bilder/spieler/gross/369998.jpg?fallback=png",
+                "28.05.2000",
+                "Manchester City",
+                "Inglaterra",
+                "171 cm",
+                "70 kg",
+                "MediocentroMediocentro ofensivo",
+                "zurdo"
+            ),
+            Players(
+                "Robert Lewandowski",
+                "https://s.hs-data.com/bilder/spieler/gross/119750.jpg?fallback=png",
+                "21.08.1988",
+                "Bayern Munich",
+                "Polonia",
+                "185 cm",
+                "81 kg",
+                "Delantero centro",
+                "diestro"
+            ),
+            Players(
+                "Romelu Lukaku",
+                "https://s.hs-data.com/bilder/spieler/gross/142964.jpg?fallback=png",
+                "13.05.1993",
+                "Chelsea FC",
+                "BélgicaR.D. Congo",
+                "192 cm",
+                "93 kg",
+                "Delantero centro",
+                "zurdo"
+            ),
+            Players(
+                "Sadio Mané",
+                "https://s.hs-data.com/bilder/spieler/gross/205026.jpg?fallback=png",
+                "10.04.1992",
+                "Liverpool",
+                "Senegal",
+                "174 cm",
+                "69 kg",
+                "Extremo izquierdoExtremo derecho",
+                "diestro"
+            ),
+            Players(
+                "Sergio Ramos García",
+                "https://s.hs-data.com/bilder/spieler/gross/19198.jpg?fallback=png",
+                "30.03.1986",
+                "PSG",
+                "España",
+                "184 cm",
+                "82 kg",
+                "Defensa centralLateral derecho",
+                "diestro"
+            ),
+            Players(
+                "Thibaut Nicolas Marc Courtois",
+                "https://s.hs-data.com/bilder/spieler/gross/140652.jpg?fallback=png",
+                "11.05.1992",
+                "Real Madrid",
+                "Bélgica",
+                "200 cm",
+                "96 kg",
+                "Portero",
+                "zurdo"
+            ),
+            Players(
+                "Thomas Müller",
+                "https://s.hs-data.com/bilder/spieler/gross/97332.jpg?fallback=png",
+                "13.09.1989",
+                "Bayern Munich",
+                "Alemania",
+                "185 cm",
+                "76 kg",
+                "Mediocentro ofensivoExtremo derecho",
+                "diestro"
+            ),
+            Players(
+                "Virgil van Dijk",
+                "https://s.hs-data.com/bilder/spieler/gross/163624.jpg?fallback=png",
+                "08.07.1991",
+                "Liverpool",
+                "Países BajosSurinam",
+                "193 cm",
+                "92 kg",
+                "Defensa central",
+                "diestro"
+            )
+        )
+    }
+}

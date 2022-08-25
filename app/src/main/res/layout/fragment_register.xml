@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registerFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.RegisterFragment"
+    android:background="@mipmap/background_futbol">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="94dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Bienvenido"
+        android:textAlignment="center"
+        android:textColor="@color/negrito"
+        android:textSize="42sp" />
+
+    <EditText
+        android:id="@+id/etRegisterName"
+        android:layout_width="258dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="242dp"
+        android:background="@color/grisClaro"
+        android:hint=" Nombre"
+        android:inputType="text"
+        android:textColorLink="@color/bordo" />
+    <EditText
+        android:id="@+id/etRegisterEmail"
+        android:layout_width="258dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="294dp"
+        android:hint=" Correo Electronico"
+        android:inputType="textEmailAddress"
+        android:background="@color/grisClaro"/>
+    <EditText
+        android:id="@+id/etRegisterUser"
+        android:layout_width="258dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="347dp"
+        android:hint=" Usuario"
+        android:inputType="text"
+        android:background="@color/grisClaro"/>
+    <EditText
+        android:id="@+id/etRegisterPassword"
+        android:layout_width="258dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400dp"
+        android:hint=" Contraseña"
+        android:inputType="textPassword"
+        android:background="@color/grisClaro"/>
+    <EditText
+        android:id="@+id/etRegisterRepeatPassword"
+        android:layout_width="258dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="452dp"
+        android:hint=" Repita contraseña"
+        android:inputType="textPassword"
+        android:background="@color/grisClaro"/>
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="598dp"
+        android:text="Registrarme"
+        app:cornerRadius="50dp"
+        android:backgroundTint="@color/bordo"/>
+    <TextView
+        android:id="@+id/tvTermsCond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="527dp"
+        android:text="Acepto terminos y condiciones"
+        android:textColor="@color/negrito"
+        android:fontFamily="@font/aclonica"
+        android:textSize="13sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="527dp"
+        android:background="@color/white"
+        android:buttonTint="@color/bordo"
+        android:text="" />
+</FrameLayout>
